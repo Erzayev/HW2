@@ -1,10 +1,8 @@
-document.getElementById("button1").addEventListener("click", function(){
+document.addEventListener("DOMContentLoaded", function (event) {
 
-var num1 = document.getElementById("number1").value;
-var num2 = document.getElementById("number2").value;
+    document.getElementById("button1").addEventListener("click", function () {
 
-var result = parseInt(num1) + parseInt(num2);
-        
-document.getElementById("output").innerHTML = result;
-
+        document.getElementById("textbox1").value = "success";
+    });
 });
+
